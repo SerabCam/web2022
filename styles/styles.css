@@ -1,0 +1,66 @@
+html {
+font-size: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  font-family: serif;
+  }
+
+header {
+  background-color: #fcba03;
+  color: #000000;
+  font-size: 1rem;
+
+}
+
+header img {
+  height: 150px;
+  width: 150px;
+}
+
+.wrapper {
+  background-color: #ffffff;
+  margin: 0em 2em 0em 2em;
+}
+
+#primary {
+  padding: 0em 0em 1em 2em;
+}
+
+figure img {
+  height: 50%;
+  width: 50%;
+}
+
+.basic_care {
+  background-color: #f0f58661;
+  border-width: medium;
+  border-color: #000;
+  text-align: left;
+  text-decoration: none;
+  color: #000000;
+  padding: 12px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.advanced_care {
+  background-color: #f0f58661;
+  border-width: medium;
+  border-color: #000;
+  text-align: left;
+  text-decoration: none;
+  color: #000000;
+  padding: 12px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #f0f58661;
+  padding: 0.8em 0 0 2em;
+  width: 100%;
+}
