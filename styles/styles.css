@@ -14,7 +14,8 @@ header {
 background-color: #2c4418;
   color: #fff;
   padding: 1em 4em 1em 8em;
-  font-family: sans-serif
+  font-family: sans-serif;
+  text-transform:uppercase;
 }
 
 nav ul {
