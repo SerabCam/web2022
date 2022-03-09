@@ -1,6 +1,6 @@
 html {
 font-size: 100%;
-  background-color: #ffffff
+  background-color: ##1ab844;
 }
 
 body {
@@ -12,7 +12,8 @@ body {
 
 header {
 background-color: #242021;
-  color: #fff
+  color: #fff;
+    padding: 1em 4em 1em 4em;
 }
 
 nav ul {
