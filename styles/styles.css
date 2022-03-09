@@ -77,15 +77,16 @@ nav ul li:nth-child(5) a {
 }
 
 #primary{
-  padding: 0 0 1em 2em;
+  padding: 1em 1em 1em 1em;
 }
 
 #main_article {
-  padding: 1em 1em 0 1em;
+  background-color: #c6ca8a;
+  padding: 1em 1em 1em 1em;
 }
 
 figure {
-  padding: 1em 1em 0 1em;
+  padding: 1em 1em 1em 1em;
 }
 
 figure img {
@@ -100,5 +101,3 @@ footer {
   padding: 1em 1em 1em 1em;
   
 }
-
-  
