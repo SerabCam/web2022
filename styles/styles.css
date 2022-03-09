@@ -10,10 +10,17 @@ body {
   }
 
 header {
-  background-color: #fcba03;
-  color: #000000;
+display: grid;
+  padding-left: 400px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  height: 5rem;
+  background-color: eda921;
+  color: #fff;
   font-size: 1rem;
-
+  text-transform: uppercase;
+  justify-items: end;
+  text-align: left;
+}
 }
 
 header img {
