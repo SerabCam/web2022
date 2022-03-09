@@ -77,6 +77,8 @@ nav ul li:nth-child(5) a {
 }
 
 #primary{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   padding: 1em 1em 1em 1em;
 }
 
@@ -96,6 +98,7 @@ figure img {
 }
 
 footer {
+  display:flex;
   color: #fff;
   background-color: #1e5925;
   padding: .1em .1em .1em 1em;
