@@ -22,7 +22,19 @@ body {
     .wrapper{
   background-color: #ad3d0c;
   margin: 2em 2em 2em 2em;
-        display: grid;
+    display: grid;
+
+  grid-template-areas:
+    "header header header"
+    "nav content side"
+    "footer";
+
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 10px;
+
+  height: auto;
+        
     
 }
 
