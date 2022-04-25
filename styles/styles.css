@@ -122,6 +122,19 @@ nav ul li:nth-child(5) a {
 .wrapper{
   background-color: #ad3d0c;
   margin: 0 2em 0 2em;
+   display: grid;
+
+  grid-template-areas:
+    "header header header"
+    "nav content side"
+    "footer";
+
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 10px;
+
+  height: auto;
+  
 }
 
 #primary{
