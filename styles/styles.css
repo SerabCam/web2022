@@ -163,3 +163,32 @@ footer {
   padding: .1em .1em .1em 1em;
   
 }
+
+      caption {
+      font-size: 1.5rem;
+      padding: 10px;
+      }
+      
+      thead {
+        background-color: brown;
+        color: white;
+        font-weight: bold;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+      }
+      
+      th, td {
+      padding: 5px 10px;
+      border: 1px solid black;
+     
+      }
+      
+      table {
+      border-collapse: collapse;
+      }
+      
+      .rowhover:hover {
+      background-color: yellow;
+      color: black;
+      }
+      
